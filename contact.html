@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | Amna Khan</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="topbar" role="note">
+    Week 2 Demo: Contact Page (Form Styling + Focus States)
+  </div>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <h1 id="hero-title">Amna Khan</h1>
+        <p class="subtitle">Frontend Developer | HTML | CSS | JavaScript</p>
+      </div>
+
+      <nav class="nav">
+        <a class="nav-link" href="index.html">Home</a>
+        <a class="nav-link" href="projects.html">Projects</a>
+        <a class="nav-link active" href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="page-title">
+      <h2>Contact</h2>
+      <p class="muted">Form with labels and validation. Styled using CSS selectors.</p>
+    </section>
+
+    <section class="card">
+      <form class="form" action="#" method="post">
+        <div class="field">
+          <label for="full-name">Full Name <span class="req">*</span></label>
+          <input id="full-name" name="full-name" type="text" required placeholder="Enter your name" />
+        </div>
+
+        <div class="field">
+          <label for="email">Email <span class="req">*</span></label>
+          <input id="email" name="email" type="email" required placeholder="name@example.com" />
+        </div>
+
+        <div class="field">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" placeholder="Write your message..."></textarea>
+        </div>
+
+        <button class="btn" type="submit">Send</button>
+      </form>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© 2026 Amna Khan. All rights reserved.</p>
+      <a class="footer-link" href="projects.html">Projects</a>
+    </div>
+  </footer>
+
+</body>
+</html>

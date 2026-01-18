@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Amna Khan | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Fixed announcement bar (POSITION: fixed demo) -->
+  <div class="topbar" role="note">
+    Week 2 Demo: CSS Fundamentals (Selectors, Box Model, Typography, Colors, Positioning)
+  </div>
+
+  <!-- Sticky header (POSITION: sticky demo) -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <h1 id="hero-title">Amna Khan</h1>
+        <p class="subtitle">Frontend Developer | HTML | CSS | JavaScript</p>
+      </div>
+
+      <nav class="nav">
+        <a class="nav-link active" href="index.html">Home</a>
+        <a class="nav-link" href="projects.html">Projects</a>
+        <a class="nav-link" href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- Card section + box-model spacing demo -->
+    <section id="about" class="card">
+      <!-- Absolute badge (POSITION: absolute demo) -->
+      <span class="badge">NEW</span>
+
+      <h2>About Me</h2>
+      <p>
+        I build clean, user-friendly websites and enjoy learning new tools.
+        This demo shows how to style a Week 1 HTML portfolio using CSS fundamentals.
+      </p>
+
+      <p class="highlight">
+        Tip: Open <strong>style.css</strong> and change colors, spacing, and fonts to practice.
+      </p>
+    </section>
+
+    <section id="skills" class="card">
+      <h2>Skills</h2>
+      <ul class="list">
+        <li>HTML5 (Semantic Structure)</li>
+        <li>CSS3 (Box Model + Responsive Basics)</li>
+        <li>JavaScript (DOM Basics)</li>
+      </ul>
+    </section>
+
+    <section id="highlights" class="card">
+      <h2>Highlights</h2>
+      <ul class="list">
+        <li>Built portfolio with multi-page navigation</li>
+        <li>Used semantic tags: header, nav, main, section, article, footer</li>
+        <li>Created accessible contact form with labels</li>
+      </ul>
+    </section>
+
+    <!-- Relative positioning demo -->
+    <section class="card relative-demo">
+      <h2>Positioning Demo</h2>
+      <p>
+        The small label below is moved using <code>position: relative</code>.
+      </p>
+      <span class="relative-label">relative</span>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© 2026 Amna Khan. All rights reserved.</p>
+      <a class="footer-link" href="#top">Back to top</a>
+    </div>
+  </footer>
+
+</body>
+</html>
